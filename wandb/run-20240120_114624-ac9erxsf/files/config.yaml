@@ -76,7 +76,7 @@ prediction_loss_only:
   value: false
 per_device_train_batch_size:
   desc: null
-  value: 32
+  value: 128
 per_device_eval_batch_size:
   desc: null
   value: 8
@@ -139,7 +139,7 @@ log_on_each_node:
   value: true
 logging_dir:
   desc: null
-  value: test_trainer/runs/Jan20_14-58-45_curry
+  value: test_trainer/runs/Jan20_16-04-19_curry
 logging_strategy:
   desc: null
   value: steps
