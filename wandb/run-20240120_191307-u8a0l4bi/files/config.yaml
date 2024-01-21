@@ -356,7 +356,7 @@ log_on_each_node:
   value: true
 logging_dir:
   desc: null
-  value: test_trainer/runs/Jan20_21-03-29_curry
+  value: test_trainer/runs/Jan20_23-16-02_curry
 logging_strategy:
   desc: null
   value: steps
