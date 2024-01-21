@@ -7428,3 +7428,130 @@
 2024-01-20 16:24:21,297 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: status_report
 2024-01-20 16:24:25,761 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: keepalive
 2024-01-20 16:24:26,298 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: status_report
+2024-01-20 16:24:31,348 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: status_report
+2024-01-20 16:24:31,771 DEBUG   SenderThread:133364 [sender.py:send():382] send: exit
+2024-01-20 16:24:31,771 INFO    SenderThread:133364 [sender.py:send_exit():589] handling exit code: 0
+2024-01-20 16:24:31,773 INFO    SenderThread:133364 [sender.py:send_exit():591] handling runtime: 3810
+2024-01-20 16:24:31,777 INFO    SenderThread:133364 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-20 16:24:31,777 INFO    SenderThread:133364 [sender.py:send_exit():597] send defer
+2024-01-20 16:24:31,778 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:31,779 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-20 16:24:31,779 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:31,780 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-20 16:24:31,780 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 1
+2024-01-20 16:24:31,780 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:31,781 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-20 16:24:31,781 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:31,782 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-20 16:24:31,782 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 2
+2024-01-20 16:24:31,783 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:31,784 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-20 16:24:31,784 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:31,785 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-20 16:24:31,785 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 3
+2024-01-20 16:24:31,785 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:31,786 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-20 16:24:31,786 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:31,787 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-20 16:24:31,787 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 4
+2024-01-20 16:24:31,787 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:31,788 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-20 16:24:31,788 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:31,789 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-20 16:24:31,789 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 5
+2024-01-20 16:24:31,789 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:31,790 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-20 16:24:31,791 DEBUG   SenderThread:133364 [sender.py:send():382] send: summary
+2024-01-20 16:24:31,794 INFO    SenderThread:133364 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-20 16:24:31,794 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:31,795 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-20 16:24:31,795 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 6
+2024-01-20 16:24:31,795 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:31,796 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-20 16:24:31,797 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:31,797 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-20 16:24:31,798 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 7
+2024-01-20 16:24:31,798 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: status_report
+2024-01-20 16:24:31,799 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:31,799 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-20 16:24:31,800 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:31,801 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-20 16:24:32,424 INFO    Thread-12 :133364 [dir_watcher.py:_on_file_created():271] file/dir created: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/wandb-summary.json
+2024-01-20 16:24:32,771 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-20 16:24:35,176 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 8
+2024-01-20 16:24:35,177 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: poll_exit
+2024-01-20 16:24:35,177 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:35,178 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-20 16:24:35,178 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:35,179 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-20 16:24:35,179 INFO    SenderThread:133364 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-20 16:24:35,182 INFO    SenderThread:133364 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-01-20 16:24:35,182 INFO    SenderThread:133364 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2024-01-20 16:24:35,183 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 9
+2024-01-20 16:24:35,184 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:35,184 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-20 16:24:35,185 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:35,185 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-20 16:24:35,186 INFO    SenderThread:133364 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-20 16:24:35,427 INFO    SenderThread:133364 [dir_watcher.py:_on_file_modified():288] file/dir modified: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/output.log
+2024-01-20 16:24:35,427 INFO    SenderThread:133364 [dir_watcher.py:finish():388] scan: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files
+2024-01-20 16:24:35,429 INFO    SenderThread:133364 [dir_watcher.py:finish():402] scan save: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/config.yaml config.yaml
+2024-01-20 16:24:35,430 INFO    SenderThread:133364 [dir_watcher.py:finish():402] scan save: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/requirements.txt requirements.txt
+2024-01-20 16:24:35,431 INFO    SenderThread:133364 [dir_watcher.py:finish():402] scan save: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/conda-environment.yaml conda-environment.yaml
+2024-01-20 16:24:35,432 INFO    SenderThread:133364 [dir_watcher.py:finish():402] scan save: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/wandb-metadata.json wandb-metadata.json
+2024-01-20 16:24:35,433 INFO    SenderThread:133364 [dir_watcher.py:finish():402] scan save: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/output.log output.log
+2024-01-20 16:24:35,434 INFO    SenderThread:133364 [dir_watcher.py:finish():402] scan save: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/wandb-summary.json wandb-summary.json
+2024-01-20 16:24:35,435 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 10
+2024-01-20 16:24:35,437 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:35,440 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-20 16:24:35,461 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:35,461 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-20 16:24:35,462 INFO    SenderThread:133364 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-20 16:24:36,225 INFO    wandb-upload_1:133364 [upload_job.py:push():131] Uploaded file /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/requirements.txt
+2024-01-20 16:24:36,225 INFO    wandb-upload_2:133364 [upload_job.py:push():131] Uploaded file /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/conda-environment.yaml
+2024-01-20 16:24:36,255 INFO    wandb-upload_0:133364 [upload_job.py:push():131] Uploaded file /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/config.yaml
+2024-01-20 16:24:36,280 INFO    wandb-upload_4:133364 [upload_job.py:push():131] Uploaded file /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/wandb-summary.json
+2024-01-20 16:24:36,431 INFO    wandb-upload_3:133364 [upload_job.py:push():131] Uploaded file /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/files/output.log
+2024-01-20 16:24:36,631 INFO    Thread-11 (_thread_body):133364 [sender.py:transition_state():617] send defer: 11
+2024-01-20 16:24:36,632 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:36,633 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-20 16:24:36,634 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:36,634 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-20 16:24:36,634 INFO    SenderThread:133364 [file_pusher.py:join():181] waiting for file pusher
+2024-01-20 16:24:36,635 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 12
+2024-01-20 16:24:36,636 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:36,636 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-20 16:24:36,637 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:36,639 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-20 16:24:36,639 INFO    SenderThread:133364 [file_stream.py:finish():595] file stream finish called
+2024-01-20 16:24:36,956 INFO    SenderThread:133364 [file_stream.py:finish():599] file stream finish is done
+2024-01-20 16:24:36,956 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 13
+2024-01-20 16:24:36,957 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:36,958 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-20 16:24:36,969 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:36,970 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-20 16:24:36,970 INFO    SenderThread:133364 [sender.py:transition_state():617] send defer: 14
+2024-01-20 16:24:36,971 DEBUG   SenderThread:133364 [sender.py:send():382] send: final
+2024-01-20 16:24:36,972 DEBUG   SenderThread:133364 [sender.py:send():382] send: footer
+2024-01-20 16:24:36,971 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: defer
+2024-01-20 16:24:36,973 INFO    HandlerThread:133364 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-20 16:24:36,974 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: defer
+2024-01-20 16:24:36,974 INFO    SenderThread:133364 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-20 16:24:36,976 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-20 16:24:36,976 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: poll_exit
+2024-01-20 16:24:36,977 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: server_info
+2024-01-20 16:24:36,978 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-20 16:24:36,979 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-20 16:24:36,979 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: server_info
+2024-01-20 16:24:36,980 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-20 16:24:36,985 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: job_info
+2024-01-20 16:24:37,016 DEBUG   SenderThread:133364 [sender.py:send_request():409] send_request: job_info
+2024-01-20 16:24:37,017 INFO    MainThread:133364 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-01-20 16:24:37,021 INFO    MainThread:133364 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-01-20 16:24:37,021 INFO    MainThread:133364 [wandb_run.py:_footer_sync_info():3796] logging synced files
+2024-01-20 16:24:37,031 DEBUG   HandlerThread:133364 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-20 16:24:37,037 INFO    HandlerThread:133364 [handler.py:finish():866] shutting down handler
+2024-01-20 16:24:37,990 INFO    WriterThread:133364 [datastore.py:close():294] close: /shared/3/projects/bowenyi/Floyd_Month/Content Analysis/podcasts/wandb/run-20240120_114624-ac9erxsf/run-ac9erxsf.wandb
+2024-01-20 16:24:38,017 INFO    SenderThread:133364 [sender.py:finish():1548] shutting down sender
+2024-01-20 16:24:38,017 INFO    SenderThread:133364 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-20 16:24:38,017 INFO    SenderThread:133364 [file_pusher.py:join():181] waiting for file pusher
